@@ -4,7 +4,7 @@ Servo drumServo2;
 
 void setup() {
   drumServo1.attach(2);   // Drum Stick 1 attached to arduino Digital 2 pin
-  drumServo1.attach(3);   // Drum Stick 2 attached to arduino Digital 3 pin
+  drumServo2.attach(3);   // Drum Stick 2 attached to arduino Digital 3 pin
 }
 
 void loop() {
