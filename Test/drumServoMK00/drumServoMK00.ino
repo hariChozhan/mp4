@@ -14,10 +14,10 @@ void loop() {
   drumServo2.write(0);    // Drum Stick 2 moves to 0 angle
   drumServo2.write(90);   // Drum Stick 2 moves to 90 angle
   delay(500);
-  drumServo1.write(0);
   drumServo1.write(90);
+  drumServo1.write(0);
   delay(500);
-  drumServo2.write(0);
   drumServo2.write(90);
+  drumServo2.write(0);
   delay(500);           //Copy and paste the above set of codes and change the servo angles and time delay to make some tunes 
 }
