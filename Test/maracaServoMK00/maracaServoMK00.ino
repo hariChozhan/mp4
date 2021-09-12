@@ -3,8 +3,8 @@ Servo maracaServo1;
 Servo maracaServo2;
 
 void setup() {
-  maracaServo1.attach(4);   // Maraca 1 attached to arduino Digital 2 pin
-  maracaServo2.attach(5);   // Maraca 2 attached to arduino Digital 3 pin
+  maracaServo1.attach(4);   // Maraca 1 attached to arduino Digital 4 pin
+  maracaServo2.attach(5);   // Maraca 2 attached to arduino Digital 5 pin
 }
 
 void loop() {
