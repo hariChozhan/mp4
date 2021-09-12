@@ -14,10 +14,10 @@ void loop() {
   maracaServo2.write(0);    // Maraca 2 moves to 0 angle
   maracaServo2.write(90);   // Maraca 2 moves to 90 angle
   delay(500);
-  maracaServo1.write(0);
   maracaServo1.write(90);
+  maracaServo1.write(0);
   delay(500);
-  maracaServo2.write(0);
   maracaServo2.write(90);
+  maracaServo2.write(0);
   delay(500);           //Copy and paste the above set of codes and change the servo angles and time delay to make some tunes 
 }
